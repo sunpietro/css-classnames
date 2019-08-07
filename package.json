@@ -1,0 +1,28 @@
+{
+  "name": "css-classnames",
+  "version": "1.0.0",
+  "description": "A tiny helper to generate CSS classes based on provided conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "npx terser index.js --compress --mangle --output css-classnames.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunpietro/css-classnames.git"
+  },
+  "keywords": [
+    "css",
+    "classnames",
+    "helper"
+  ],
+  "author": "Piotr Nalepa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunpietro/css-classnames/issues"
+  },
+  "homepage": "https://github.com/sunpietro/css-classnames#readme",
+  "devDependencies": {
+    "terser": "^4.1.3"
+  }
+}
